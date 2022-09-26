@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- //form -->
+    <form>
+      <div class="input-row">
+        <label for="f_name">First Name</label>
+        <input type="url" name="f_name" id="f_name" />
+      </div>
+      <div class="input-row">
+        <label for="l_name">Last Name</label>
+        <input type="text" name="l_name" id="l_name" />
+      </div>
+      <div class="input-row">
+        <label for="l_name">City</label>
+        <input type="text" name="city" id="city" />
+      </div>
+      <div class="input-row">
+        <label for="l_name">Country</label>
+        <input type="text" name="country" id="country" />
+      </div>
+      <div class="f_buttons">
+        <a  class="button3 add_row_top">Add Row To Top</a>
+        <a  class="button3 add_row_bottom"
+          >Add Row To Bottom</a
+        >
+      </div>
+    </form>
+    
+
+    <!-- //table -->
+    <div class="table-wrapper">
+      <table class="fl-table">
+        <thead>
+          <tr>
+            <th>S. NO.</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>City</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody id="table_data">
+
+          </tbody>
+      </table>
+    </div>
+
+  
+  </body>
+  <script src="js/index.js"></script>
+</html>
